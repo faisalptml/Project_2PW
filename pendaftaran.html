@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="assets/img/web.png" rel="icon">
+    <link rel="stylesheet" href="assets/CSS/style.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>Pendaftaran_seminarTA</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-primary">
+        <a class="navbar-brand" href="#"><img class="img-fluid" src="assets/img/Sistem informasi seminar tugas akhir.png" width="50px" alt="" style="margin-left: 15px;"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link scrollto active" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Jadwal</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Seminar</a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Berita</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="">About</a>
+              </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="row text-center" style="margin-top: 90px;">
+        <div class="col-md-12">
+          <h3>
+            Sistem Informasi Seminar Tugas Akhir - SISTA
+          </h3>
+          <div> 
+            <h4>Pendaftaran Seminar berlaku untuk Mahasiswa yang telah mendapat persetujuan dari Pembimbing TA </h4>  
+         </div>
+        </div>
+      </div>
+      <br>
+
+      <h5>Form Pendaftaran Seminar TA</h5>
+      <div style="width: 100%; border: 2px solid black; padding: 15px;">
+        <div class="row">
+          <div class="col-md-6">
+            <form role="form">
+              <div class="form-group">
+                 
+                <label for="exampleInputEmail1">
+                  Nim
+                </label>
+                <input type="email" class="form-control" id="exampleInputEmail1" />
+              </div>
+              <div class="form-group">
+                 
+                <label for="exampleInputPassword1">
+                 Nama
+                </label>
+                <input type="password" class="form-control" id="exampleInputPassword1" />
+              </div>
+              <label for="exampleInputPassword1">
+               Prodi
+              </label>
+              <select class="form-select" aria-label="Default select example">
+                <option value="1">Sistem Informasi</option>
+                <option value="2">Teknik Informatika</option>
+              </select>
+              <div class="form-group">
+                 
+                <label for="exampleInputPassword1">
+                  Tanggal Seminar
+                </label>
+                <input type="date" class="form-control" id="exampleInputPassword1" />
+              </div>
+              <div class="form-group">
+                 
+                <label for="exampleInputPassword1">
+                  Jam Seminar
+                </label>
+                <input type="time" class="form-control" id="exampleInputPassword1" />
+              </div>
+              <div class="form-group">
+                 
+                <label for="exampleInputPassword1">
+                  Ruangan
+                </label>
+                <input type="text" class="form-control" id="exampleInputPassword1" />
+              </div>
+              <button type="submit" class="btn btn-primary mt-2">
+                <a href="index2.html" style="text-decoration: none; color: white;">
+                  Submit
+                </a>
+              </button>
+          </div>
+          <div class="col-md-6">
+              <div class="form-group">
+                 
+                <label for="exampleInputEmail1">
+                  Judul TA
+                </label>
+                <input type="email" class="form-control" id="exampleInputEmail1" style="height: 100px;" />
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1">
+                 Seminar
+                </label>
+                <select class="form-select" aria-label="Default select example">
+                  <option value="1">Proposal</option>
+                  <option value="2">Skripsi</option>
+                </select>
+              <div class="form-group">
+                <label for="exampleInputPassword1">
+                 Pembimbing
+                </label>
+                <select class="form-select" aria-label="Default select example">
+                  <option value="1">Sirojul Munir S.SI, M.Kom</option>
+                  <option value="2">Ahmad Rio M.SI</option>
+                </select>
+              <div class="form-group">
+                <label for="exampleInputPassword1">
+                 Penguji 1
+                </label>
+                <select class="form-select" aria-label="Default select example">
+                  <option value="1">Ahmad Rio M.SI</option>
+                  <option value="2">Amalia Rahma M.T</option>
+                </select>
+              <div class="form-group">
+                <label for="exampleInputPassword1">
+                 Penguji 2
+                </label>
+                <select class="form-select" aria-label="Default select example">
+                  <option value="1">Amalia Rahma M.T</option>
+                  <option value="2">Sirojul Munir S.SI, M.Kom</option>
+                </select>
+            </form>
+          </div>
+        </div>
+      </div>
+      </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
